@@ -1,6 +1,18 @@
 .main-menu ul{
     display: flex;
-    gap: 18px;
+    gap: 30px;
     list-style: none;
     padding-left: 0;
+    border: 2px solid var(--color-secondary);
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 10px;
+    padding-right: 0;
+    box-shadow: 2px 2px 2px 2px rgb(112, 177, 209);
+    border-radius: 20px;
+   
+}
+
+h1 {
+    text-align: center;
 }
