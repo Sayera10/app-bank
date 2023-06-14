@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { TablsTransferenciasComponent } from './components/tabls-transferencias/tabls-transferencias.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TablsTransferenciasComponent
   ],
   imports: [
     BrowserModule,
