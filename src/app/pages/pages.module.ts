@@ -6,18 +6,27 @@ import { TransferenciaRecibidasComponent } from './transferencia-recibidas/trans
 import { TransferenciasEnviadasComponent } from './transferencias-enviadas/transferencias-enviadas.component';
 import { FormsModule } from '@angular/forms';
 import { ComponentesModule } from '../componentes/componentes.module';
+import { NuevaTransferenciasComponent } from './nueva-transferencias/nueva-transferencias.component';
+import { MiCuentaComponent } from './mi-cuenta/mi-cuenta.component';
+import { TransferenciasComponent } from './transferencias/transferencias.component';
+
 
 
 @NgModule({
   declarations: [
     TransferenciaRecibidasComponent,
-    TransferenciasEnviadasComponent
+    TransferenciasEnviadasComponent,
+    NuevaTransferenciasComponent,
+    MiCuentaComponent,
+    TransferenciasComponent,
+    
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
     FormsModule,
-   ComponentesModule
+   ComponentesModule,
+   
   ]
 })
 export class PagesModule { }
