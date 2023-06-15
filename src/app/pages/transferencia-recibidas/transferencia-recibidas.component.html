@@ -1,16 +1,5 @@
 <h2>Transferencias Recibidas</h2>
-
-<div class="fila-tabla  cabecera-tabla">
-    <div>Concepto</div>
-    <div>importe</div>
-    <div>Fecha</div>
-</div>
-
-<article class="fila-tabla" *ngFor="let transferencia of transferencias">
-    <div>{{ transferencia.concepto }}</div>
-    <div>{{ transferencia.importe | currency:'EUR' }}</div>
-    <div>{{ transferencia.fecha | date:'short' }}</div>
-</article>
+<app-table-transferencias [transferencias]="transferencias"></app-table-transferencias>
 
 
 

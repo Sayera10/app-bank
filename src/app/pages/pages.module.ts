@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import { TransferenciaRecibidasComponent } from './transferencia-recibidas/transferencia-recibidas.component';
 import { TransferenciasEnviadasComponent } from './transferencias-enviadas/transferencias-enviadas.component';
+import { FormsModule } from '@angular/forms';
+import { ComponentesModule } from '../componentes/componentes.module';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { TransferenciasEnviadasComponent } from './transferencias-enviadas/trans
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule,
+   ComponentesModule
   ]
 })
 export class PagesModule { }
