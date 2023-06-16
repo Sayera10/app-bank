@@ -4,7 +4,7 @@ export const transferenciaEnviadas = [
         idOrdenante: 1,
         idBeneficiario: 2,
         importe: 50,
-        concepto: "Regalo cumpleaño",
+        concepto: "Asset Title Transfers",
         fecha: new Date(),
     },
     {
@@ -12,7 +12,7 @@ export const transferenciaEnviadas = [
         idOrdenante: 1,
         idBeneficiario: 2,
         importe: 960,
-        concepto: "Nomina",
+        concepto: "Loan Transfer",
         fecha: new Date(),
     },
     {
@@ -20,7 +20,7 @@ export const transferenciaEnviadas = [
         idOrdenante: 1,
         idBeneficiario: 2,
         importe: 200,
-        concepto: "Alquiler",
+        concepto: "Payments",
         fecha: new Date(),
     },
     {
@@ -28,7 +28,7 @@ export const transferenciaEnviadas = [
         idOrdenante: 1,
         idBeneficiario: 2,
         importe: 600,
-        concepto: "Alquiler",
+        concepto: "Brokerage Transfers",
         fecha: new Date(),
     },
     {
@@ -36,7 +36,7 @@ export const transferenciaEnviadas = [
         idOrdenante: 1,
         idBeneficiario: 2,
         importe: 550,
-        concepto: "Alquiler",
+        concepto: "Trade trading tools",
         fecha: new Date(),
     },
     {
@@ -44,7 +44,7 @@ export const transferenciaEnviadas = [
         idOrdenante: 1,
         idBeneficiario: 2,
         importe: 1220,
-        concepto: "Alquiler",
+        concepto: "Understanding Transfers",
         fecha: new Date(),
     },
     ];

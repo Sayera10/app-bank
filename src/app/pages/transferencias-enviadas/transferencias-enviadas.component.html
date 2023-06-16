@@ -1,2 +1,21 @@
-<h2>Transferencias enviadas</h2>
-<app-table-transferencias [transferencias]="transferencias"></app-table-transferencias>
+<div class="top">
+<h2>Transferencias enviadas<img src="https://img.freepik.com/vector-gratis/banca-linea_24908-60038.jpg?w=996&t=st=1686916365~exp=1686916965~hmac=bf94d01b85aa1e3508d8021279fe0cbdb0545c04ddf4dab229a83fa8e107a7cb" alt="" width="150px" ></h2>
+</div>
+<!-- <app-table-transferencias [transferencias]="transferencias"></app-table-transferencias> -->
+<div class="align">
+
+ <div class="fila-tabla  cabecera-tabla"> 
+    <div>Concepto</div>
+    <div>importe</div>
+    <div>Fecha</div>
+</div> 
+<div class="border">
+<article class="fila-tabla" *ngFor="let transferencia of transferencias">
+    
+    <div>{{ transferencia.concepto }}</div>
+
+    <div>{{ transferencia.importe | currency:'EUR' }}</div>
+    <div>{{ transferencia.fecha | date:'short' }}</div>
+</article> 
+   </div>  
+</div>

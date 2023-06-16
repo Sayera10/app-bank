@@ -1,12 +1,15 @@
-<h1>App Bank</h1>
+<!-- <header>App Bank</header> -->
 <nav class="main-menu">
     <ul >
-        <li><a routerLink="/auth/login">Iniciar sesión</a></li>
-        <li><a routerLink="/pages/dashboard">Dashboard</a></li>
-        <li><a routerLink="/pages/mi-cuenta">Mi-cuenta</a></li>
-        <li><a routerLink="/pages/transferencias">Transferencias</a></li>
+        <li><a routerLinkActive="active-menu"  routerLink="/auth/login">Iniciar sesión</a></li>
+         <li><a routerLinkActive="active-menu"  routerLink="/pages/dashboard">Dashboard</a></li>
+        <li><a routerLinkActive="active-menu"  routerLink="/pages/mi-cuenta">Mi-cuenta</a></li>
+        <li><a routerLinkActive="active-menu"   routerLink="/pages/transferencias">Transferencias</a></li>
     </ul>
 </nav>
 
 
 <router-outlet></router-outlet>
+<!-- <footer class="footer">
+    <p>This is the footer of app</p>
+</footer> -->

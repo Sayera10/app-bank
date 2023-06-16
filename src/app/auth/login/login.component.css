@@ -6,3 +6,7 @@ input {
     margin: 10px;
     border: 2px solid var(--color-secondary);
 }
+h2{
+    font-size: 25px;
+    font-family: serif;
+}

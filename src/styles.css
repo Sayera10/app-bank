@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 * {
+    background-color: #005A9C;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* * {
     --color-primary: #00cc88;
     --color-secondary: aquamarine;
     --color-background: #1f1f1f;
@@ -79,4 +87,4 @@ a {
 
 .hidden {
     display: none;
-}
+} */

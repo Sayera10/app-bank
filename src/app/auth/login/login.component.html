@@ -1,8 +1,10 @@
 <div class="log">
-<h2>LOGIN:</h2>
+<h2>Login or create a new account.</h2>
 <section>
-    <input [(ngModel)]="email" placeholder="Email" type="email"><br>
-    <input [(ngModel)]="password" placeholder="Contrasña" type="password"><br>
-    <button (click)="validarLogin()" class="btn btn-primary">Acceder</button>
+    <input [(ngModel)]="email" placeholder="Email Address" type="email"><br>
+    <input [(ngModel)]="password" placeholder="Password" type="password"><br>
+    <button (click)="validarLogin()" class="btn btn-primary">Sign In</button>
 </section>
+<h2>Don´t have an account?</h2>
+<button  class="btn btn-primary">Create an account</button>
 </div>
